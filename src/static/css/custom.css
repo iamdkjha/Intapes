@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+
+/* Global Variables */
+
+:root{
+    --global_hover_icons: #b3b1b1;
+    --global_full_hr_color: #979292;
+}
+
+
+
+
+/* Universal CSS */
+
+html,body{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.global_font_logo{
+    font-family: "League Spartan", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.global_props_icon{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.global_container_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.global_props_icon:hover{
+    color: var(--global_hover_icons);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.global_trans_effect_all{
+    transition: all 75ms ease-in-out;
+}
+
+/* Index */
+
+.header_section_index{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid var(--global_full_hr_color);
+    background-color: #ffffff;
+}
+
+.header_logo{
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.header_search_props_form input{
+    width: 300px;
+    height: 2.4rem;
+    background-color: rgb(242, 233, 255);
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 5px 10px 5px 40px;
+    outline: none;
+}
+
+
+.header_nav_icons{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid var(--global_full_hr_color);
+    background-color: #ffffff;
+}
+
+.header_icons{
+    display: flex;
+    gap: 1.25rem;
+}
+
+
+
+
+
+/* Responsive Design */
+
+@media only screen and (max-width: 767px) and (min-width: 350px)  {
+
+    /* Universal */
+
+    .global_props_icon{
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+
+    /* Index */
+
+    .header_logo{
+        font-size: 2.4rem;
+    }
+    
+    .header_icons{
+        gap: 1.50rem;
+    }
+
+}
+
+@media only screen and (min-width: 768px){
+
+    /* Universal */
+
+    .global_props_icon{
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .header_icons{
+        gap: 2.50rem;
+    }
+
+}
