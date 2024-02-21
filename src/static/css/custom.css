@@ -61,6 +61,7 @@ html,body{
 .header_logo{
     font-weight: 800;
     font-size: 2rem;
+    user-select: none;
 }
 
 .header_search_props_form input{

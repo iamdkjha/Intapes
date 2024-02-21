@@ -683,22 +683,6 @@ video {
     height: 4rem !important;
   }
 
-  .lg\:\!h-\[140\%\] {
-    height: 140% !important;
-  }
-
-  .lg\:\!h-\[200px\] {
-    height: 200px !important;
-  }
-
-  .lg\:\!h-\[140\] {
-    height: 140 !important;
-  }
-
-  .lg\:\!h-\[140px\] {
-    height: 140px !important;
-  }
-
   .lg\:\!h-32 {
     height: 8rem !important;
   }
